@@ -92,7 +92,7 @@
 			},
 			error : function(errorMsg) {
 				//请求失败时执行该函数
-				alert("图表请求数据失败!");
+				alert("图表请求数据失败了!");
 				myChart.hideLoading();
 			}
 		})
